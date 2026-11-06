@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student Video Testimonials | 6F IT School</title>
+  <meta name="description" content="Student testimonial video gallery.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <div id="site-header"></div>
+  <main class="section">
+    <div class="container reveal">
+      <span class="eyebrow">Video Testimonials</span>
+      <h1 class="section-title">Student Voices (Permission-Based)</h1>
+      <p class="section-copy">Add only consented and verified testimonial videos. This gallery is ready for approved video URLs.</p>
+      <div class="video-carousel">
+        <article class="card"><div class="video-thumb">Video placeholder</div><h3>Testimonial Slot 1</h3><p class="muted">Course: DevOps Engineering</p><button class="play-btn" data-video-url="" aria-label="Video unavailable">▶</button></article>
+        <article class="card"><div class="video-thumb">Video placeholder</div><h3>Testimonial Slot 2</h3><p class="muted">Course: AWS & Cloud Computing</p><button class="play-btn" data-video-url="" aria-label="Video unavailable">▶</button></article>
+        <article class="card"><div class="video-thumb">Video placeholder</div><h3>Testimonial Slot 3</h3><p class="muted">Course: Agentic AI</p><button class="play-btn" data-video-url="" aria-label="Video unavailable">▶</button></article>
+      </div>
+      <p class="muted">To enable playback, paste approved embed URLs into each button's data-video-url attribute.</p>
+    </div>
+  </main>
+
+  <div id="video-modal" class="modal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Student testimonial video">
+    <div class="modal-content">
+      <div class="modal-head"><strong>Student Testimonial</strong><button class="btn btn-secondary" data-close-modal>Close</button></div>
+      <div class="modal-body"></div>
+    </div>
+  </div>
+
+  <div id="site-footer"></div>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

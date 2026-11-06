@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>All Courses | 6F IT School</title>
+  <meta name="description" content="Browse technology programs offered by 6F IT School.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <div id="site-header"></div>
+  <main class="section">
+    <div class="container reveal">
+      <span class="eyebrow">All Courses</span>
+      <h1 class="section-title">Discover Approved Technology Programs</h1>
+      <p class="section-copy">Use search and filters to find the right course. Duration, fee and certification details should be published only after official confirmation.</p>
+
+      <div class="search-row card">
+        <label>Search
+          <input id="course-search" type="search" placeholder="Search by course name, technology or outcome">
+        </label>
+        <label>Category
+          <select id="course-category">
+            <option value="all">All Categories</option>
+            <option value="cloud">AWS & Cloud</option>
+            <option value="devops">DevOps</option>
+            <option value="ai">Agentic AI</option>
+            <option value="fullstack">Full Stack</option>
+          </select>
+        </label>
+        <label>Level
+          <select id="course-level">
+            <option value="all">All Levels</option>
+            <option value="beginner">Beginner</option>
+            <option value="intermediate">Intermediate</option>
+          </select>
+        </label>
+      </div>
+
+      <section class="grid grid-2" style="margin-top:18px;">
+        <article class="card" data-course-card data-category="cloud" data-level="beginner" data-search="aws cloud computing iam ec2 s3 vpc lambda rds monitoring deployment">
+          <h2>AWS & Cloud Computing</h2>
+          <p class="muted">Level: Beginner to Intermediate</p>
+          <p class="muted">Delivery: Instructor-led, practical labs</p>
+          <p class="muted">Prerequisites: Basic computer skills</p>
+          <div class="tags"><span class="tag">IAM</span><span class="tag">EC2</span><span class="tag">S3</span><span class="tag">VPC</span><span class="tag">CloudWatch</span></div>
+          <p>Learning outcomes include deploying applications, setting up core AWS services and basic monitoring workflows.</p>
+          <div class="btn-group"><a class="btn btn-secondary" href="course-aws.html">View Syllabus</a><a class="btn btn-accent" href="enquiry.html">Enquire Now</a></div>
+        </article>
+
+        <article class="card" data-course-card data-category="devops" data-level="beginner" data-search="devops linux github jenkins actions docker kubernetes terraform ansible prometheus grafana">
+          <h2>DevOps Engineering</h2>
+          <p class="muted">Level: Beginner to Intermediate</p>
+          <p class="muted">Delivery: Instructor-led with capstone project</p>
+          <p class="muted">Prerequisites: Basic programming familiarity recommended</p>
+          <div class="tags"><span class="tag">Linux</span><span class="tag">Docker</span><span class="tag">Kubernetes</span><span class="tag">Terraform</span></div>
+          <p>Learning outcomes include CI/CD pipeline creation, containerised deployment and observability setup.</p>
+          <div class="btn-group"><a class="btn btn-secondary" href="course-devops.html">View Syllabus</a><a class="btn btn-accent" href="enquiry.html">Enquire Now</a></div>
+        </article>
+
+        <article class="card" data-course-card data-category="ai" data-level="intermediate" data-search="agentic ai automation python llm rag vector embeddings langchain langgraph prompt engineering">
+          <h2>Agentic AI & AI Automation</h2>
+          <p class="muted">Level: Intermediate</p>
+          <p class="muted">Delivery: Guided workflow labs and project-based learning</p>
+          <p class="muted">Prerequisites: Basic Python understanding</p>
+          <div class="tags"><span class="tag">Python</span><span class="tag">LLM APIs</span><span class="tag">RAG</span><span class="tag">Vector DB</span></div>
+          <p>Learning outcomes include building tool-using agents, retrieval systems and safe automation workflows.</p>
+          <div class="btn-group"><a class="btn btn-secondary" href="course-agentic-ai.html">View Syllabus</a><a class="btn btn-accent" href="enquiry.html">Enquire Now</a></div>
+        </article>
+
+        <article class="card" data-course-card data-category="fullstack" data-level="beginner" data-search="full stack html css javascript react typescript node express mongodb postgresql rest api deployment">
+          <h2>Full Stack Development</h2>
+          <p class="muted">Level: Beginner to Intermediate</p>
+          <p class="muted">Delivery: Practical coding sessions and final deployment project</p>
+          <p class="muted">Prerequisites: Basic logical problem solving</p>
+          <div class="tags"><span class="tag">React</span><span class="tag">Node.js</span><span class="tag">TypeScript</span><span class="tag">REST APIs</span></div>
+          <p>Learning outcomes include developing and deploying complete web applications with frontend and backend integration.</p>
+          <div class="btn-group"><a class="btn btn-secondary" href="course-fullstack.html">View Syllabus</a><a class="btn btn-accent" href="enquiry.html">Enquire Now</a></div>
+        </article>
+      </section>
+    </div>
+  </main>
+
+  <div id="site-footer"></div>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

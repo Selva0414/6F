@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Enquire / Apply Now | 6F IT School</title>
+  <meta name="description" content="Submit your 6F IT School course enquiry.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <div id="site-header"></div>
+  <main class="section">
+    <div class="container reveal">
+      <span class="eyebrow">Enquire / Apply</span>
+      <h1 class="section-title">Start Your Learning Conversation</h1>
+      <p class="section-copy">Complete the form and the team can guide you to the most suitable course path.</p>
+      <div class="card">
+        <form class="form-grid" data-demo-form>
+          <label>Full Name<input required name="name"></label>
+          <label>Phone Number<input required type="tel" name="phone"></label>
+          <label>Email Address<input required type="email" name="email"></label>
+          <label>Preferred Course<select name="course"><option>AWS & Cloud Computing</option><option>DevOps Engineering</option><option>Agentic AI & AI Automation</option><option>Full Stack Development</option><option>Need counselling first</option></select></label>
+          <label>Current Education / Experience<input name="experience"></label>
+          <label>Preferred Learning Mode<select><option>Classroom</option><option>Online</option><option>Hybrid</option></select></label>
+          <label class="full-span">Career Goal<textarea placeholder="Describe your goals so the team can suggest the right path."></textarea></label>
+          <label class="full-span"><input type="checkbox" required> I agree to be contacted regarding my enquiry.</label>
+          <button class="btn btn-primary" type="submit">Submit Enquiry</button>
+          <p class="form-note muted"></p>
+        </form>
+      </div>
+    </div>
+  </main>
+  <div id="site-footer"></div>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
